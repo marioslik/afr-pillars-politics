@@ -39,8 +39,8 @@ function init() {
 
     $('.frame-2 p').html('ECONOMY<br>CLASS');
     $('.frame-3 p').html("THE POLITICAL<br>PLAYS SHAPING<br>AUSTRALIA");
-    $('.frame-4 p').html('RUN THE WORLD<br>WITH THE AFR');
-    $('.frame-5 p').html('TRY THE AFR<br>FREE FOR 1 MONTH');
+    $('.frame-4 p').html('RUN THE WORLD<br>WITH THE AFR.');
+    $('.frame-5 p').html('TRY THE AFR<br>FREE FOR 1 MONTH.');
 
     $('.cta-copy').html('Find out more');
 
@@ -76,10 +76,15 @@ function init() {
     frame04 = timingValues[3];
     frame05 = timingValues[4];
 
+
     const manifest = [
-        "grumpycat.jpg",
-        "photo.jpg",
-        ""
+        "puppet-left-leg.png",
+        "puppet-right-leg.png",
+        "puppet-shadow.png",
+        "hand-puppet.png",
+        "man-arm.png",
+        "tie.png",
+        "skybg.jpg"
     ];
 
     preloadimages(manifest)
@@ -198,8 +203,4 @@ function start() {
     // =========================
     // tl.pause(8)
 
-
-    let name = `andrew`
-    const surname = `asdfasdf`
-    //alert(`sup ${name} ${surname}`)
 }
